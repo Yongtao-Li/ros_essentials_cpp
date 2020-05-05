@@ -14,7 +14,7 @@ int main( )
        Mat image;
  
        // LOAD image
-       image = imread("/home/riotu/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/images/chess.jpg", CV_LOAD_IMAGE_COLOR);   // Read the file "image.jpg".
+       image = imread("/home/yongtaoli/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/images/chess.jpg", CV_LOAD_IMAGE_COLOR);   // Read the file "image.jpg".
               //This file "image.jpg" should be in the project folder.
               //Else provide full address : "D:/images/image.jpg"
  
@@ -29,7 +29,7 @@ int main( )
        imshow( "window", image ); // Show our image inside it.
  
        //SAVE image
-       imwrite("/home/riotu/tmp/copy_image.jpg",image);// it will store the image in name "result.jpg"
+       imwrite("/home/yongtaoli/copy_image.jpg",image);// it will store the image in name "result.jpg"
  
        waitKey(0);                       // Wait for a keystroke in the window
        return 0;
