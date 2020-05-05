@@ -126,7 +126,8 @@ if __name__ == '__main__':
         
         rospy.init_node('turtlesim_motion_pose', anonymous=True)
 
-        #move (0.3, 0.5 , False)
+        time.sleep(1.0)
+        move (0.3, 0.5 , False)
         time.sleep(1.0)
         rotate (90, 90 , True)
        
